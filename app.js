@@ -86,5 +86,15 @@ const repunzel3 = new DMCast(
     }
 );
 
+const moana = DMCast.create(
+    `Moana`,
+    `Moana of Motunui`,
+    {
+        moana: `Auli'i Cravalho`,
+        maui: `Dwayne Johnson`,
+        grammaTala: `Rachel House`,
+        chiefTui: `Temuera Morrison`
+    }
+);
 
-
+console.log(moana);
